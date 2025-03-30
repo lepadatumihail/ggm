@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "SkyAgent",
-  url: "https://agent-magicui.vercel.app",
-  description: "Your template for building AI-powered agents with Magic UI.",
+  name: "Golden Gate Media",
+  url: "https://goldengatemedia.co.uk",
+  description: "We Build. We Scale. You Grow.",
   links: {
     twitter: "https://x.com/dillionverma",
     github: "https://github.com/dillionverma",
