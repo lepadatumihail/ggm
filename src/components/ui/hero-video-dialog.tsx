@@ -131,23 +131,25 @@ export function HeroVideoDialog({
               >
                 <XIcon className='size-5' />
               </motion.button>
-              <div className='relative isolate z-[1] size-full overflow-hidden rounded-2xl border-2 border-white'>
-                {videoSrc.includes('youtube.com') ? (
-                  <iframe
-                    src={videoSrc}
-                    className='size-full'
-                    allowFullScreen
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                  ></iframe>
-                ) : (
-                  <video
-                    src={videoSrc}
-                    className='size-full'
-                    controls
-                    playsInline
-                    autoPlay
-                  />
-                )}
+              <div
+                className='relative isolate z-[1] size-full overflow-hidden rounded-2xl border-2 border-white'
+                onClick={(e) => e.stopPropagation()}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.stopPropagation();
+                  }
+                }}
+                role='presentation'
+              >
+                <video
+                  src={videoSrc}
+                  className='size-full'
+                  controls
+                  playsInline
+                  autoPlay
+                  muted
+                  // loop
+                />
               </div>
             </motion.div>
           </motion.div>
