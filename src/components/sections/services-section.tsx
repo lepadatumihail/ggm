@@ -2,7 +2,7 @@
 
 import { SectionHeader } from '@/components/section-header';
 import { siteConfig } from '@/lib/config';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { Target, Sparkle, Robot } from '@phosphor-icons/react';
 
 export function ServicesSection() {
