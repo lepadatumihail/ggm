@@ -4,7 +4,7 @@ import { SectionHeader } from '@/components/section-header';
 import { siteConfig } from '@/lib/config';
 
 export function GrowthSection() {
-  const { title, description, items } = siteConfig.growthSection;
+  const { title, items } = siteConfig.growthSection;
 
   return (
     <section
@@ -21,9 +21,9 @@ export function GrowthSection() {
           <h2 className='text-3xl md:text-4xl font-medium tracking-tighter text-center text-balance'>
             {title}
           </h2>
-          <p className='text-muted-foreground text-center text-balance font-medium'>
+          {/* <p className='text-muted-foreground text-center text-balance font-medium'>
             {description}
-          </p>
+          </p> */}
         </SectionHeader>
 
         {/* Grid Layout */}

@@ -9,7 +9,7 @@ import { HeroSection } from '@/components/sections/hero-section';
 import { PricingSection } from '@/components/sections/pricing-section';
 import { QuoteSection } from '@/components/sections/quote-section';
 import { ServicesSection } from '@/components/sections/services-section';
-import { TestimonialSection } from '@/components/sections/testimonial-section';
+// import { TestimonialSection } from '@/components/sections/testimonial-section';
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
       <PricingSection />
       <FAQSection />
       <CTASection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <FooterSection />
     </main>
   );

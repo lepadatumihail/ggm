@@ -24,7 +24,7 @@ export function ServicesSection() {
   return (
     <section
       id='services'
-      className='flex flex-col items-center justify-center gap-12 w-full relative py-24'
+      className='flex flex-col items-center justify-center gap-12 w-full relative py-10'
     >
       <SectionHeader>
         <h2 className='text-3xl md:text-5xl font-medium tracking-tighter text-center text-balance'>

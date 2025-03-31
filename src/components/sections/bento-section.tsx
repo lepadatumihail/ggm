@@ -4,7 +4,7 @@ import { SectionHeader } from '@/components/section-header';
 import { siteConfig } from '@/lib/config';
 
 export function BentoSection() {
-  const { title, description, items } = siteConfig.bentoSection;
+  const { title, items } = siteConfig.bentoSection;
 
   return (
     <section
@@ -19,9 +19,9 @@ export function BentoSection() {
           <h2 className='text-3xl md:text-4xl font-medium tracking-tighter text-center text-balance pb-1'>
             {title}
           </h2>
-          <p className='text-muted-foreground text-center text-balance font-medium'>
+          {/* <p className='text-muted-foreground text-center text-balance font-medium'>
             {description}
-          </p>
+          </p> */}
         </SectionHeader>
 
         <div className='grid grid-cols-1 md:grid-cols-2 overflow-hidden'>
