@@ -1,12 +1,13 @@
 'use client';
 
-import { Icons } from '@/components/icons';
+// import { Icons } from '@/components/icons';
 import { NavMenu } from '@/components/nav-menu';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { siteConfig } from '@/lib/config';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
 import { AnimatePresence, motion, useScroll } from 'motion/react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
@@ -112,8 +113,12 @@ export function Navbar() {
         >
           <div className='flex h-[56px] items-center justify-between p-4'>
             <Link href='/' className='flex items-center gap-3'>
-              <Icons.logo className='size-7 md:size-10' />
-              <p className='text-lg font-semibold text-primary'>GGM</p>
+              <Image
+                src='/logo.png'
+                alt='Golden Gate Media'
+                width={102}
+                height={52}
+              />
             </Link>
 
             <NavMenu />
@@ -168,11 +173,13 @@ export function Navbar() {
               {/* Mobile menu content */}
               <div className='flex flex-col gap-4'>
                 <div className='flex items-center justify-between'>
-                  <Link href='/' className='flex items-center gap-3'>
-                    <Icons.logo className='size-7 md:size-10' />
-                    <p className='text-lg font-semibold text-primary'>
-                      Golden Gate Media
-                    </p>
+                  <Link href='/' className='flex items-center gap-3 '>
+                    <Image
+                      src='/logo.png'
+                      alt='Golden Gate Media'
+                      width={102}
+                      height={26}
+                    />
                   </Link>
                   <button
                     type='button'

@@ -227,22 +227,22 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(85.5% 0.165 83.87); /* More vibrant gold */
+  --secondary: oklch(65% 0.27 0.1); /* Lighter version of #EF2D6F */
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(100% 0 0);
-  --accent-foreground: oklch(80.3% 0.178 83.54); /* Richer gold tone */
+  --accent-foreground: oklch(65% 0.27 0.1); /* Lighter version of #EF2D6F */
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.769 0.188 70.08); /* Gold tone */
-  --chart-2: oklch(0.828 0.189 84.429); /* Brighter gold */
-  --chart-3: oklch(0.75 0.195 75.5); /* Rich gold */
-  --chart-4: oklch(0.82 0.21 80.704); /* Vibrant gold */
-  --chart-5: oklch(0.65 0.22 65.08); /* Deeper gold */
+  --chart-1: oklch(65% 0.27 0.1); /* Lighter version of #EF2D6F */
+  --chart-2: oklch(68% 0.27 0.1); /* Slightly lighter */
+  --chart-3: oklch(65% 0.27 0.1); /* Lighter version of #EF2D6F */
+  --chart-4: oklch(70% 0.27 0.1); /* Even lighter */
+  --chart-5: oklch(62% 0.27 0.1); /* Slightly darker for contrast */
   --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -263,7 +263,7 @@
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.985 0 0);
   --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(80.3% 0.178 83.54); /* Gold instead of blue */
+  --secondary: oklch(65% 0.27 0.1); /* Pink instead of gold */
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
@@ -274,14 +274,14 @@
   --border: oklch(0.269 0 0);
   --input: oklch(0.269 0 0);
   --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.769 0.188 70.08); /* Gold tone */
-  --chart-2: oklch(0.828 0.189 84.429); /* Brighter gold */
-  --chart-3: oklch(0.75 0.195 75.5); /* Rich gold */
-  --chart-4: oklch(0.627 0.265 83.54); /* Gold instead of purple */
-  --chart-5: oklch(0.645 0.246 83.54); /* Gold instead of red */
+  --chart-1: oklch(65% 0.27 0.1); /* Pink tone */
+  --chart-2: oklch(68% 0.27 0.1); /* Slightly lighter pink */
+  --chart-3: oklch(65% 0.27 0.1); /* Pink */
+  --chart-4: oklch(70% 0.27 0.1); /* Even lighter pink */
+  --chart-5: oklch(62% 0.27 0.1); /* Slightly darker pink for contrast */
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.769 0.188 70.08); /* Gold instead of blue */
+  --sidebar-primary: oklch(65% 0.27 0.1); /* Pink instead of gold */
   --sidebar-primary-foreground: oklch(0.985 0 0);
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);

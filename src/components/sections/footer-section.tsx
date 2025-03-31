@@ -5,16 +5,22 @@ import { FlickeringGrid } from '@/components/ui/flickering-grid';
 import { useMediaQuery } from '@/hooks/use-media-query';
 import { siteConfig } from '@/lib/config';
 import Link from 'next/link';
+import Image from 'next/image';
+
 export function FooterSection() {
   const tablet = useMediaQuery('(max-width: 1024px)');
 
   return (
     <footer id='footer' className='w-full pb-0'>
       <div className='flex flex-col md:flex-row md:items-center md:justify-between pt-20 px-10'>
-        <div className='flex flex-col items-start justify-start gap-y-5 max-w-xs mx-0'>
+        <div className='flex flex-col items-start justify-start gap-y-5 max-w-lg mx-0'>
           <Link href='/' className='flex items-center gap-2'>
-            <Icons.logo className='size-8' />
-            <p className='text-xl font-semibold text-primary'>GGM</p>
+            <Image
+              src='/logo.png'
+              alt='Golden Gate Media'
+              width={152}
+              height={26}
+            />
           </Link>
           <p className='tracking-tight text-muted-foreground font-medium'>
             {siteConfig.hero.description}
